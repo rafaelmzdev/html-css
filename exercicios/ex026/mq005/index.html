@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ut dolor ipsum minus consectetur debitis, saepe nesciunt. Iure ab at laboriosam excepturi perspiciatis, illo laudantium obcaecati dolorem pariatur et reiciendis.
+            Porro molestias incidunt deleniti esse vel, quidem, impedit enim similique iusto laborum blanditiis aliquam ipsa quas repellat nesciunt ducimus reprehenderit amet? Laborum illum, delectus quas labore fugiat adipisci dolor error!
+            Atque at quia eligendi vitae ut iusto aut exercitationem saepe, id pariatur repellendus aliquid excepturi blanditiis sunt error, deserunt perferendis ipsa et tempore debitis sed autem dolores deleniti eius. Quibusdam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ut dolor ipsum minus consectetur debitis, saepe nesciunt. Iure ab at laboriosam excepturi perspiciatis, illo laudantium obcaecati dolorem pariatur et reiciendis.
+            Porro molestias incidunt deleniti esse vel, quidem, impedit enim similique iusto laborum blanditiis aliquam ipsa quas repellat nesciunt ducimus reprehenderit amet? Laborum illum, delectus quas labore fugiat adipisci dolor error!
+            Atque at quia eligendi vitae ut iusto aut exercitationem saepe, id pariatur repellendus aliquid excepturi blanditiis sunt error, deserunt perferendis ipsa et tempore debitis sed autem dolores deleniti eius. Quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt error, sed modi quod saepe molestiae, ut suscipit minus sint architecto porro officia facilis distinctio voluptate. Asperiores consequuntur sit exercitationem sequi.
+            Similique quo fuga debitis, sunt eveniet unde exercitationem, assumenda mollitia corrupti tempore odio. Illum dolore, nisi assumenda delectus esse mollitia at doloremque provident! Sunt nostrum temporibus eius, perspiciatis deserunt cupiditate.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
